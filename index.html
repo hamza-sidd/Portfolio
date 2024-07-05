@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(4, 4, 33);
+            color: azure;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(45 4 113);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(186, 145, 225);
+            font-size: 1.03rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(186, 145, 225);
+            height: 1.2px;
+            margin: 30px 110px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 80px 0;
+        }
+
+        .firstSection div> {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+
+        .leftSection .btn {
+            padding: 10px;
+            margin-top: 35px;
+            margin-right: 7px;
+            background-color: rgb(45 4 113);
+            border: 2px solid white;
+            color: white;
+            border-radius: 10px;
+            font-size: initial;
+            cursor: pointer;
+        }
+
+        .leftSection .btn:hover {
+            font-size: 1.05rem;
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(165 77 190);
+        }
+
+        #element {
+            color: rgb(165 77 190);
+        }
+
+        footer {
+            background-color: #2b0755;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            margin-top: 150px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+            font-size: 15px;
+        }
+      
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .secondSection .vertical {
+            height: 120px;
+            width: 3px;
+            background-color: white;
+            margin: 20px 20px;
+        }
+
+        .secondSection .vertical .txt {
+            position: absolute;
+            margin: 0 30px;
+            padding-right: 300px;
+        }
+
+        .thirdSection {
+            padding-bottom: 200px;
+            margin: 120px;
+            position: relative;
+            background-color: #16012e;
+        }
+
+        .mainHead {
+            font-size: 40px;
+            text-align: center;
+
+        }
+
+        .thirdSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .thirdSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 86px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 97px;
+            width: 150px;
+        }
+
+        .subHeading {
+            text-align: center;
+            position: relative;
+            top: 45px;
+        }
+
+        .head1 {
+            text-align: center;
+            position: relative;
+            top: 116px;
+        }
+
+        .head2 {
+            text-align: center;
+            position: relative;
+            top: 160px;
+        }
+
+        .fourthSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+        .fourthSection .head{
+            font-size: xx-large;
+            text-align: center;
+        }
+        .fourthSection .box {
+            padding: 30px 100px;
+        }
+        .fourthSection .box .proj2{
+            margin-top: 52px;
+        }
+        .fourthSection .p1{
+            text-decoration: underline;
+            text-align: justify;
+        }
+        .fourthSection .txt{
+            text-align: justify;
+
+        }
+        .fourthSection .proj2 .p2{
+            text-decoration: underline;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Hamza's Portfolio</div>
+            <div class="right">
+                <ul>
+
+                    <!-- <li><a href="/PORTFOLIO/resume.html">Resume</a></li> -->
+                    <li><a href="/PORTFOLIO/contact-me.html">Contact Me</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello! I am <span class="purple">Hamza Siddiqui</span>
+                <div>and my skills are:</div>
+                <span id="element"></span>
+                <div>
+                    <button class="btn" onClick="location.href='documents/Resume (2) (1).pdf';">Download Resume</button>
+                   
+                    <button class="btn" onclick="document.location='https://github.com/hamza-sidd'">Visit GitHub</button>
+                
+                </div>
+            </div>
+
+
+            <div class="rightSection">
+                <img src="profile.png.jpeg" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>ABOUT ME</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="txt">
+                        As a passionate and dedicated Bachelor of Technology (B.Tech) undergraduate, I thrive on
+                        innovation and problem-solving in the ever-evolving field of technology. I decide on equipping
+                        myself with a solid foundation in SOFTWARE DEVELOPMENT along with hands-on experience in
+                        programming languages(C++) ,Data Structures and web development as well.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="thirdSection">
+            <h1 class="mainHead">MY SKILLS</h1>
+
+            <h2 class="subHeading">&#8594; Web Development</h2>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-title">
+                        MongoDB
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        ExpressJS
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        ReactJS
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        NodeJS
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        HTML
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+                </div>
+            </div>
+            <div class="head1">
+                <h2>&#8594; Data Structures</h2>
+            </div>
+            <div class="head2">
+                <h2>&#8594; C++</h2>
+            </div>
+
+        </section>
+        <hr>
+        <section class="fourthSection">
+            <h1 class="head">ACADEMIC PROJECTS </h1>
+<hr>
+            <div class="box">
+                <h2 class="p1">Robo Tasks</h2>
+                <div class="txt">
+                    Rest API based Task Manager Application-
+                    <li> An application to help us secure and
+                        store data with use of REST API complete with user accounts and authentication.
+                    </li>
+                    <li>CRUD Operations ,Emails sending , Picture upload.</li>
+                    <li>(MongoDB, Node.js, REST API , Express)</li>
+                </div>
+                <div class="proj2">
+                    <h2 class="p2">Cloud Note</h2>
+                    APIs based Weather Application-
+                    <li>A real time web application for fetching weather
+                    information.
+                </li>
+                  <li>  (Java Script , Node.js , Handlebars )</li>
+
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Hamza's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+               
+            </div>
+            <div class="footer-third"></div>
+        </div>
+
+        <div class="footer-rights">
+            Copyright &#169; | Hamza's Portfolio | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Development', 'Data Structures', 'C++'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
